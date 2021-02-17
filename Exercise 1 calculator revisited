@@ -1,0 +1,25 @@
+package calculatorRevisited;
+
+public class ExerciseOne {
+	static int value1 = 15;
+	static int value2 = 5;
+	static int result;
+
+	public static int division() {
+		result = value1 / value2;
+		return result;
+	}
+
+	public static void printStatements() {
+
+		if (value1 < value2) {
+			System.out.println(division());
+		} else {
+			System.out.println("The percentage cannot be calculated.");
+		}
+	}
+
+	public static void main(String[] args) {
+		printStatements();
+	}
+}
